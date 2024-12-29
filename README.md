@@ -70,35 +70,7 @@ Follow these steps to get the Attendance App up and running on your local machin
 Here is the file structure for the **Attendance App**:
 
 ```
-attendance-app/
-│
-├── assets/                      # Static assets (images, fonts, etc.)
-│   └── logo.png                 # Logo or other images
-│
-├── src/                         # Main source code
-│   ├── components/              # Reusable components
-│   │   ├── StudentList.js       # List of students (Present/Absent)
-│   │   ├── SearchBar.js         # Search bar component
-│   │   └── Header.js            # Header showing date, time, and class name
-│   │
-│   ├── screens/                 # Different screens in the app
-│   │   ├── HomeScreen.js        # Home screen where attendance is marked
-│   │   └── AttendanceDetails.js # Details screen for more student info
-│   │
-│   ├── utils/                   # Utility functions and helpers
-│   │   ├── dateHelper.js        # Helper to format date and time
-│   │   └── clipboardHelper.js   # Helper to copy text to clipboard
-│   │
-│   ├── App.js                   # Main App entry point
-│   ├── navigation/              # Navigation files (if using react-navigation)
-│   │   └── AppNavigator.js      # Navigation configuration
-│   └── styles/                  # Styles for the app
-│       └── globalStyles.js      # Global styles for the app
-│
-├── .gitignore                   # Git ignore file
-├── package.json                 # Project dependencies and scripts
-├── App.json                     # App configuration for React Native
-└── README.md                    # Project documentation (this file)
+
 ```
 
 ### Key Files:
