@@ -70,6 +70,19 @@ Follow these steps to get the Attendance App up and running on your local machin
 Here is the file structure for the **Attendance App**:
 
 ```
+attendance-app/
+    ├── app.json                    # App configuration for React Native
+    ├── eas.json                    # Expo Application Services configuration
+    ├── assets/                     # Static assets (images, fonts, etc.)
+    ├── components/                 # Reusable components
+    │   ├── styles.js               # Styles for components
+    │   ├── studentsData.js         # Sample data or functions related to student data
+    │   └── AttendanceApp.js        # Main component for handling attendance logic
+    ├── App.js                      # Entry point of the app
+    ├── package.json                # Project dependencies and scripts
+    ├── babel.config.js             # Babel configuration file for React Native
+    ├── README.md                   # Project documentation
+    └── Attendance App React Js code file.txt  # Additional code or notes related to the app
 
 ```
 
