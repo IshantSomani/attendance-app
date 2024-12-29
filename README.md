@@ -102,12 +102,13 @@ Here are the dependencies used in this project:
 
 ```json
 "dependencies": {
-  "expo": "~51.0.26",
-  "expo-status-bar": "~1.12.1",
-  "react": "18.2.0",
-  "react-native": "0.74.5",
-  "expo-clipboard": "~6.0.3",
-  "expo-dev-client": "~4.0.22"
+   "expo": "^52.0.23",
+   "expo-clipboard": "~6.0.3",
+   "expo-dev-client": "~4.0.22",
+   "expo-status-bar": "~1.12.1",
+   "npm-check-updates": "^17.1.13",
+   "react": "18.2.0",
+   "react-native": "0.74.5"
 }
 ```
 
